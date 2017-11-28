@@ -1,0 +1,28 @@
+package in.vamsoft.dao;
+
+import java.util.List;
+
+import in.vamsoft.model.Question;
+
+public class QuestionsDAO {
+
+  
+  public List<Question> getQuestions(int pageId, int total){
+    List<Question> list=new ArrayList<>();  
+    try{  
+        Connection con=getConnection();  
+        PreparedStatement ps=con.prepareStatement("select * from emp limit "+(start-1)+","+total);  
+        ResultSet rs=ps.executeQuery();  
+        while(rs.next()){  
+            Emp e=new Emp();  
+            e.setId(rs.getInt(1));  
+            e.setName(rs.getString(2));  
+            e.setSalary(rs.getFloat(3));  
+            list.add(e);  
+        }  
+    
+    
+    return null;
+    
+  }
+}

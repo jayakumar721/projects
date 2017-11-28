@@ -1,0 +1,48 @@
+package in.serial;
+
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
+
+public class Emp implements Externalizable {
+  private int empId;
+  private  String empName;
+  public int getEmpId() {
+    return empId;
+  }
+  public void setEmpId(int empId) {
+    this.empId = empId;
+  }
+  public String getEmpName() {
+    return empName;
+  }
+  public void setEmpName(String empName) {
+    this.empName = empName;
+  }
+	@Override
+	public String toString() {
+		return "Emp [empId=" + empId + ", empName=" + empName + "]";
+	}
+	@Override
+	public void writeExternal(ObjectOutput out) throws IOException {
+		
+		System.out.println("Emp.writeExternal()");
+		out.writeInt(empId);
+		out.writeObject(empName);
+		
+		
+	}
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		System.out.println("Emp.readExternal()");
+		empId = in.readInt();
+		
+	}
+  
+ 
+  
+  
+  
+
+}

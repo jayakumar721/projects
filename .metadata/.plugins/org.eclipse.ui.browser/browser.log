@@ -1,0 +1,141 @@
+
+Nov 15, 2017 09:50:29.29 NEW SESSION
+Nov 15, 2017 09:50:29.29 1510719629219	addons.webextension.87677a2c52b84ad3a151a4a72f5bd3c4@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 15, 2017 09:50:30.24 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: recipe-client-addon-run
+Nov 15, 2017 09:50:30.56 IPDL protocol error: Handler returned error code!
+Nov 15, 2017 09:50:30.56 
+Nov 15, 2017 09:50:30.56 ###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundStorage::Msg_AsyncAddItem Processing error: message was deserialized, but the handler returned false (indicating failure)
+Nov 15, 2017 09:50:30.56 
+Nov 15, 2017 09:50:33.10 *** UTM:SVC TimerManager:registerTimer - id: telemetry_modules_ping
+Nov 15, 2017 09:50:33.10 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Nov 15, 2017 09:50:34.25 1510719634255	addons.webextension.87677a2c52b84ad3a151a4a72f5bd3c4@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 15, 2017 09:54:10.80 windows.onFocusChanged event fired after context unloaded.
+Nov 15, 2017 09:55:07.06 1510719907067	addons.webextension.87677a2c52b84ad3a151a4a72f5bd3c4@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 15, 2017 09:55:07.83 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: recipe-client-addon-run
+Nov 15, 2017 09:55:08.00 IPDL protocol error: Handler returned error code!
+Nov 15, 2017 09:55:08.00 
+Nov 15, 2017 09:55:08.00 ###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundStorage::Msg_AsyncAddItem Processing error: message was deserialized, but the handler returned false (indicating failure)
+Nov 15, 2017 09:55:08.00 
+Nov 15, 2017 09:55:08.28 *** UTM:SVC TimerManager:registerTimer - id: telemetry_modules_ping
+Nov 15, 2017 09:55:08.28 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Nov 15, 2017 09:55:09.21 1510719909210	addons.webextension.87677a2c52b84ad3a151a4a72f5bd3c4@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Nov 15, 2017 18:26:18.13 [Parent 6325] WARNING: pipe error (172): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Nov 15, 2017 18:26:18.27 [Parent 6325] WARNING: pipe error (164): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Nov 15, 2017 18:27:47.91 [Parent 6325] WARNING: pipe error: Broken pipe: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 15, 2017 18:27:47.91 [Parent 6325] WARNING: pipe error: Broken pipe: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 15, 2017 18:27:49.71 windows.onFocusChanged event fired after context unloaded.
+
+Nov 16, 2017 09:22:57.77 NEW SESSION
+Nov 16, 2017 09:22:57.77 IPDL protocol error: Handler returned error code!
+Nov 16, 2017 09:22:57.80 
+Nov 16, 2017 09:22:57.80 ###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundStorage::Msg_AsyncAddItem Processing error: message was deserialized, but the handler returned false (indicating failure)
+Nov 16, 2017 09:22:57.80 
+
+Nov 28, 2017 09:16:16.21 NEW SESSION
+Nov 28, 2017 09:16:16.21 IPDL protocol error: Handler returned error code!
+Nov 28, 2017 09:16:16.23 
+Nov 28, 2017 09:16:16.23 ###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundStorage::Msg_AsyncUpdateItem Processing error: message was deserialized, but the handler returned false (indicating failure)
+Nov 28, 2017 09:16:16.23 
+Nov 28, 2017 09:16:16.23 IPDL protocol error: Handler returned error code!
+Nov 28, 2017 09:16:16.23 
+Nov 28, 2017 09:16:16.23 ###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundStorage::Msg_AsyncAddItem Processing error: message was deserialized, but the handler returned false (indicating failure)
+Nov 28, 2017 09:16:16.23 
+Nov 28, 2017 09:16:16.23 IPDL protocol error: Handler returned error code!
+Nov 28, 2017 09:16:16.23 
+Nov 28, 2017 09:16:16.23 ###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundStorage::Msg_AsyncRemoveItem Processing error: message was deserialized, but the handler returned false (indicating failure)
+Nov 28, 2017 09:16:16.23 
+Nov 28, 2017 09:16:16.23 IPDL protocol error: Handler returned error code!
+Nov 28, 2017 09:16:16.23 
+Nov 28, 2017 09:16:16.23 ###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundStorage::Msg_AsyncAddItem Processing error: message was deserialized, but the handler returned false (indicating failure)
+Nov 28, 2017 09:16:16.23 
+Nov 28, 2017 09:57:00.89 
+Nov 28, 2017 09:57:00.92 (firefox:4380): LIBDBUSMENU-GTK-CRITICAL **: dbusmenu_menuitem_property_set_shortcut: assertion 'gtk_accelerator_valid(key, modifier)' failed
+Nov 28, 2017 13:42:55.34 ExceptionHandler::GenerateDump cloned child 12975
+Nov 28, 2017 13:42:55.61 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+Nov 28, 2017 13:42:55.61 ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Nov 28, 2017 13:42:59.21 ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Nov 28, 2017 13:42:59.21 ExceptionHandler::GenerateDump cloned child 12977
+Nov 28, 2017 13:42:59.21 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+Nov 28, 2017 13:43:02.37 [Parent 4380, Gecko_IOThread] WARNING: waitpid failed pid:9903 errno:10: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/base/process_util_posix.cc, line 276
+Nov 28, 2017 14:53:51.31 MESA-LOADER: failed to retrieve device information
+Nov 28, 2017 14:53:51.45 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+Nov 28, 2017 19:06:10.53 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.74 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.74 
+Nov 28, 2017 19:06:10.82 
+Nov 28, 2017 19:06:10.82 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.82 
+Nov 28, 2017 19:06:10.82 
+Nov 28, 2017 19:06:10.82 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.82 
+Nov 28, 2017 19:06:10.82 
+Nov 28, 2017 19:06:10.82 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.82 
+Nov 28, 2017 19:06:10.82 
+Nov 28, 2017 19:06:10.82 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.82 
+Nov 28, 2017 19:06:10.82 
+Nov 28, 2017 19:06:10.82 ###!!! [Parent][MessageChannel] Error: (msgtype=0x100033,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Nov 28, 2017 19:06:10.82 
+Nov 28, 2017 19:18:08.24 [Parent 13740, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Nov 28, 2017 19:18:08.38 [Parent 13740, Gecko_IOThread] WARNING: pipe error (212): Connection reset by peer: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Nov 28, 2017 19:18:08.38 [Parent 13740, Gecko_IOThread] WARNING: pipe error (225): Connection reset by peer: file /build/firefox-woLN5w/firefox-57.0+build4/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Nov 28, 2017 19:20:49.85 ExceptionHandler::GenerateDump cloned child 20150
+Nov 28, 2017 19:20:49.95 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+Nov 28, 2017 19:20:49.95 ExceptionHandler::WaitForContinueSignal waiting for continue signal...

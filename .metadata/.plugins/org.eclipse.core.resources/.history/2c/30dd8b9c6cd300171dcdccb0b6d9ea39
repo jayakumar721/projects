@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+        var sessionTimeout = 1800;	
+        
+        function DisplaySessionTimeout()
+        {
+            window.history.go(+1);
+            sessionTimeout = sessionTimeout - 1;
+            //document.getElementById("val").innerHTML=sessionTimeout;
+            
+            //if session is not less than 0
+            if (sessionTimeout >= 0)
+                {
+                //call the function again after 1 minute delay
+                
+               window.setTimeout("DisplaySessionTimeout()",1000);
+                }    
+            else
+            {
+                //show message box
+                //document.getElementById("val").innerHTML="TIME OUT";
+                alert("Your current Session is over.");
+                setTimeout(document.form1.sub.click());
+            }
+        }
+        
+ 
+
+ var milisec=0 
+ var seconds=30 
+ document.form1.d2.value='30' 
+
+function display()
+{ 
+ if (milisec<=0){ 
+    milisec=60 
+    seconds-=1 
+ } 
+ if (seconds<=-1){ 
+    milisec=0 
+    seconds+=1 
+ } 
+ else 
+    milisec-=1 
+    document.form1.d2.value=seconds+"M : "+milisec+" S"
+    setTimeout("display()",1000) 
+} 
+
+
+
+</script>
+</head>
+<body onLoad="javascript:display();DisplaySessionTimeout();">
+<%@ include file = "header.jsp" %>
+<div >
+<form name="form">
+ <input type="text" name="d2" value="" size="8">
+</form>
+</div>
+</body>
+</html>

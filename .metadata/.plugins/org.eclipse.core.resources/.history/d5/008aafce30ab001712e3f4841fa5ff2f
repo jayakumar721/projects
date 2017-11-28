@@ -1,0 +1,25 @@
+package in.serial;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class SerialExm {
+
+  public static void main(String[] args) throws IOException {
+    try {
+      FileOutputStream fos = new FileOutputStream("tex.txt");
+      Emp e = new Emp();
+      e.setEmpId(2345);
+      e.setEmpName("ss");
+      ObjectOutputStream oos = new ObjectOutputStream(fos);
+      oos.writeObject(e);
+    } catch (FileNotFoundException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
+    
+
+  }
+
+}

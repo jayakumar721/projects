@@ -1,0 +1,33 @@
+package in.vamsoft.servlets;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import in.vamsoft.model.Question;
+
+/**
+ * Servlet implementation class Questions
+ */
+@WebServlet("/Questions")
+public class Questions extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+	  List<Question> questions= new ArrayList<>();
+	  questions.add(new Question(1, "What is java?", "OOL", "POL", "Script"));
+	  questions.add(new Question(2, "What is CSS?", "Script", "Style", "PL"));
+	  questions.add(new Question(3, "What is Unix?", "OS", "BootStrap", "Script"));
+	  
+	  
+	response.sendRedirect("taketest.jsp");
+	}
+
+}

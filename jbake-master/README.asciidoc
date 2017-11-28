@@ -1,0 +1,85 @@
+= JBake
+Jonathan Bullock
+2017-05-11
+:idprefix:
+
+== JBake
+
+http://jbake.org[JBake] is a Java based open source static site/blog generator for developers.
+
+image:https://img.shields.io/travis/jbake-org/jbake/master.svg["Build Status", link="https://travis-ci.org/jbake-org/jbake"]
+image:https://ci.appveyor.com/api/projects/status/2q7hvg03wsjx953b?svg=true["Appveyor Status", link="https://ci.appveyor.com/project/jbake-org/jbake"]
+image:https://img.shields.io/coveralls/jbake-org/jbake/master.svg["Coverage Status", link="https://coveralls.io/r/jbake-org/jbake"]
+image:https://img.shields.io/maven-central/v/org.jbake/jbake-core.svg["Maven Download", link="http://jbake.org/download.html#maven"]
+image:https://api.bintray.com/packages/jbake/maven/jbake-core/images/download.svg["Bintray Download", link="https://bintray.com/jbake/maven/jbake-core/_latestVersion"]
+image:https://img.shields.io/homebrew/v/jbake.svg["Homebrew Download", link="http://jbake.org/download.html#homebrew"]
+
+image:https://badges.gitter.im/jbake-org/jbake.png["Gitter Chat", link="https://gitter.im/jbake-org/jbake"]
+
+== Documentation
+
+Full documentation is available on http://jbake.org/docs/[jbake.org].
+
+== Contributing
+
+We welcome all contributions to the project both big and small. From new features, bug reports to even spelling mistake corrections in 
+the documentation. Please don't hesitate to submit an issue.
+
+The link:CONTRIBUTING.asciidoc[Contributing] guide provides information on how to submit an issue or create a pull request to fix a bug or 
+add a new feature to JBake.
+
+== Versioning
+
+The project has adopted the http://semver.org[Semantic Versioning] spec from v2.2.0 onwards to maintain an 
+understandable backwards compatibility strategy.
+
+The version format is as follows:
+
+----
+<major>.<minor>.<patch>-<label>
+----
+
+* An increment of the major version represents incompatible API changes.
+* An increment of the minor version represents additional functionality in a backwards-compatible manner.
+* An increment of the patch version represents backwards-compatible bug fixes.
+* Existence of a label represents a pre-release or build metadata.
+
+== Community
+
+Talk to the developers behind JBake:
+
+* http://groups.google.com/group/jbake-dev[Mailing list]
+* link:irc://irc.freenode.net/#jbake[IRC - #jbake on Freenode]
+
+Talk to other users of JBake on the forum:
+
+* http://groups.google.com/group/jbake-user[Forum]
+
+== Build System
+
+The project uses http://gradle.org[Gradle] as the build system. To build the JBake distribution ZIP file execute the following command from the root of the repo:
+
+----
+$ ./gradlew distZip
+----
+
+This will build a ZIP file in the `/build/distributions` folder.
+
+For more information see link:BUILD.adoc[Test, Build and Deploy]
+
+== Tools & Libraries Used
+
+* http://commons.apache.org/[Apache Commons IO, Configuration, Lang & Logging]
+* http://args4j.kohsuke.org/[Args4j]
+* http://asciidoctor.org/[AsciidoctorJ]
+* http://freemarker.org/[Freemarker]
+* http://gradle.org[Gradle]
+* http://groovy-lang.org/[Groovy]
+* http://junit.org/[JUnit]
+* http://pegdown.org/[Pegdown]
+* http://www.eclipse.org/jetty/[Jetty Server]
+* http://www.orientdb.org/[OrientDB]
+
+== Copyright & License
+
+Licensed under the MIT License, see the link:LICENSE[LICENSE] file for details.

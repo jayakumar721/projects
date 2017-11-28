@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;lib&apos;&#x0A;- Original project: &apos;WebServletAssignment&apos;&#x0A;- Destination element: &apos;lib&apos;&#x0A;- Original elements:&#x0A;     ojdbc6-11.2.0.3.jar&#x0A;     log4j-1.2.17.jar" description="Copy files" element1="WebContent/WEB-INF/lib/ojdbc6-11.2.0.3.jar" element2="WebContent/WEB-INF/lib/log4j-1.2.17.jar" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1511758796885" target="/TestEngine/WebContent/WEB-INF/lib" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Billing address</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body { .form_bg { background-color:#eee;
+	color: #666;
+	padding: 20px;
+	border-radius: 10px;
+	position: absolute;
+	border: 1px solid #fff;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 320px;
+	height: 280px;
+	align-content: center;
+	text-align: center;
+}
+}
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="span8">
+				<form action="BillServlet" method="post" class="form-horizontal"
+					id="billingform" accept-charset="utf-8">
+					<div class="form_bg">
+						<div class="form-group">
+							<label for="name" class="control-label"> Billing Name</label>
+							<div class="controls">
+								<input name="name" type="text" value="" id="name">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="address" class="control-label">Address</label>
+							<div class="controls">
+								<textarea cols=50 name="address" id="address"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label">Contact no:</label>
+							<div class="controls">
+								<input name="contact" type="text" value="" id="name">
+							</div>
+						</div>
+						<div class="form-actions">
+							<button type="submit" class="btn btn-large btn-primary">Continue</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- .span8 -->
+	</div>
+</body>
+</html>

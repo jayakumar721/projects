@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="mainbox col-md-4">
+			<form class="form-group">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<div class="panel-title">login</div>
+						<div style="float: right position:relative">forgot</div>
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.classpath
+.project
+/.settings
+/target
+/bin
+/dist
+/.idea
+*.iml
+*~
+*.ipr
+*.iws
+build/
+.gradle
+.gradletasknamecache

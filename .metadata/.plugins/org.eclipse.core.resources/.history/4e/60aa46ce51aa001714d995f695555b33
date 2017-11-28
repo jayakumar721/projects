@@ -1,0 +1,19 @@
+package in.vamsoft.training.general;
+
+import java.util.Scanner;
+
+public class SampleCsv {
+  /**
+   * @param args .
+   */
+  public static void main(String[] args) {
+    String fileName = "data.csv";
+    Scanner in = new Scanner(fileName);
+    while (in.hasNext()) {
+      String data = in.next();
+      String[] values = data.split(",");
+      System.out.println(values);
+    }
+  }
+
+}

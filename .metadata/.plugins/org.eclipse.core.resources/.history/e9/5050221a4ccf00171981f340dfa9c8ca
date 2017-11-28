@@ -1,0 +1,89 @@
+ackage in.vamsoft.dao;
+import java.io.IOException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import in.vamsoft.employee.Employee;
+import in.vamsoft.service.EmpService;
+import in.vamsoft.service.ServiceDao;
+
+/**
+ * Servlet implementation class EmployeeAll
+ */
+@WebServlet("/EmployeeAll")
+public class EmployeeAll extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	HttpSession httpSession;
+	ServiceDao dao = new EmpService();
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+		doPost(req, resp);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String HiddenVal = request.getParameter("operations");
+
+		if (HiddenVal.equals("add")) {
+			System.out.println("In If");
+			String name = request.getParameter("EmpName");
+			double salary = Double.parseDouble(request.getParameter("EmpSalary"));
+			LocalDate doj = LocalDate.parse(request.getParameter("doj"), DateTimeFormatter.ofPattern("dd-MM-yyyy"));
+			int deptId = Integer.parseInt(request.getParameter("depId"));
+			Employee employee = new Employee(name, doj, salary, deptId);
+			ServiceDao dao = new EmpService();
+			boolean dao1 = dao.addEmployee(employee);
+			if (dao1) {
+
+				response.getWriter().println("Succesfully");
+			} else {
+				response.getWriter().println("Failed");
+			}
+		} else if (HiddenVal.equals("delete")) {
+			int empno = Integer.parseInt(request.getParameter("name"));
+			System.out.println("in else if");
+			int deptId = Integer.parseInt(request.getParameter("depId"));
+			ServiceDao dao1 = new EmpService();
+			boolean deleteEmployee = dao1.deleleEmployee(empno);
+			if (deleteEmployee) {
+				System.out.println("deleted succesfully");
+				
+				System.out.println(deptId);
+				List<Employee> employees = dao.getallEmployee(deptId);
+				System.out.println(employees);
+				httpSession = request.getSession();
+				httpSession.setAttribute("employee", employees);
+				RequestDispatcher dispatcher = request.getRequestDispatcher("Employee.jsp");
+				dispatcher.include(request, response);
+			}
+		}
+
+		else if (HiddenVal.equals("get")) {
+			int deptId = Integer.parseInt(request.getParameter("depId"));
+
+			List<Employee> employees = dao.getallEmployee(deptId);
+			System.out.println(employees);
+			httpSession = request.getSession();
+			httpSession.setAttribute("employee", employees);
+			RequestDispatcher dispatcher = request.getRequestDispatcher("Employee.jsp");
+			dispatcher.include(request, response);
+		}
+
+	}
+
+}

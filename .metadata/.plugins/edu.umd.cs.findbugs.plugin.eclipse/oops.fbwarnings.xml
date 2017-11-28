@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.2-dev-20160306-90c514b" sequence="1" timestamp="1505905944992" analysisTimestamp="1505905931711" release="">
+  <Project projectName="oops">
+    <Jar>/home/vamsoft/jk/VamTraining/oops/bin</Jar>
+    <AuxClasspathEntry>/home/vamsoft/jk/VamTraining/oops/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/usr/java/jdk1.8.0_121/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/home/vamsoft/jk/VamTraining/oops/src</SrcDir>
+    <SrcDir>/home/vamsoft/jk/VamTraining/oops/test</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="in.vamsoft.training.bird.BirdTest">
+      <SourceLine classname="in.vamsoft.training.bird.BirdTest" sourcefile="BirdTest.java" sourcepath="in/vamsoft/training/bird/BirdTest.java"/>
+    </Class>
+    <Method classname="in.vamsoft.training.bird.BirdTest" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="in.vamsoft.training.bird.BirdTest" start="9" end="12" startBytecode="0" endBytecode="11" sourcefile="BirdTest.java" sourcepath="in/vamsoft/training/bird/BirdTest.java"/>
+    </Method>
+    <LocalVariable name="birds" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="in.vamsoft.training.bird.BirdTest" start="9" end="9" startBytecode="7" endBytecode="7" sourcefile="BirdTest.java" sourcepath="in/vamsoft/training/bird/BirdTest.java"/>
+    <SourceLine classname="in.vamsoft.training.bird.BirdTest" start="9" end="9" startBytecode="7" endBytecode="7" sourcefile="BirdTest.java" sourcepath="in/vamsoft/training/bird/BirdTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="birds"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 20 Sep 2017 10:20:48 +0530" total_classes="16" referenced_classes="27" total_bugs="1" total_size="129" num_packages="4" java_version="1.8.0_121" vm_version="25.121-b13" cpu_seconds="24.66" clock_seconds="13.29" peak_mbytes="794.16" alloc_mbytes="1024.00" gc_seconds="0.32" priority_1="1">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="Samp" sourceFile="Samp.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="in.vamsoft.training.bird" total_bugs="1" total_types="1" total_size="8" priority_1="1">
+      <ClassStats class="in.vamsoft.training.bird.BirdTest" sourceFile="BirdTest.java" interface="false" size="8" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="in.vamsoft.training.birds" total_bugs="0" total_types="7" total_size="40">
+      <ClassStats class="in.vamsoft.training.birds.Animal" sourceFile="Animal.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.birds.AsianCrow" sourceFile="AsianCrow.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.birds.Birds" sourceFile="Birds.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.birds.Crow" sourceFile="Crow.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.birds.Eating" sourceFile="Eating.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.birds.Flying" sourceFile="Flying.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.birds.Talking" sourceFile="Talking.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="in.vamsoft.training.oops" total_bugs="0" total_types="7" total_size="78">
+      <ClassStats class="in.vamsoft.training.oops.Car" sourceFile="Car.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.oops.Driving" sourceFile="Driving.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.oops.Flying" sourceFile="Flying.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.oops.HierarchyTest" sourceFile="HierarchyTest.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.oops.Plane" sourceFile="Plane.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.oops.SportsCar" sourceFile="SportsCar.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="in.vamsoft.training.oops.Vehicle" sourceFile="Vehicle.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1097" invocations="2" avgMicrosecondsPerInvocation="548638" maxMicrosecondsPerInvocation="648033" standardDeviationMircosecondsPerInvocation="99395"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="424" invocations="348" avgMicrosecondsPerInvocation="1218" maxMicrosecondsPerInvocation="58364" standardDeviationMircosecondsPerInvocation="4263"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="412" invocations="350" avgMicrosecondsPerInvocation="1179" maxMicrosecondsPerInvocation="18635" standardDeviationMircosecondsPerInvocation="3110"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="233" invocations="41" avgMicrosecondsPerInvocation="5697" maxMicrosecondsPerInvocation="229330" standardDeviationMircosecondsPerInvocation="35359"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="143" invocations="27" avgMicrosecondsPerInvocation="5323" maxMicrosecondsPerInvocation="43954" standardDeviationMircosecondsPerInvocation="10403"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="127" invocations="27" avgMicrosecondsPerInvocation="4738" maxMicrosecondsPerInvocation="49199" standardDeviationMircosecondsPerInvocation="10536"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="111" invocations="91" avgMicrosecondsPerInvocation="1220" maxMicrosecondsPerInvocation="23924" standardDeviationMircosecondsPerInvocation="2766"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="76" invocations="27" avgMicrosecondsPerInvocation="2816" maxMicrosecondsPerInvocation="34703" standardDeviationMircosecondsPerInvocation="7362"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="72" invocations="47" avgMicrosecondsPerInvocation="1545" maxMicrosecondsPerInvocation="37311" standardDeviationMircosecondsPerInvocation="5574"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="61" invocations="33" avgMicrosecondsPerInvocation="1870" maxMicrosecondsPerInvocation="28356" standardDeviationMircosecondsPerInvocation="5230"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="52" invocations="33" avgMicrosecondsPerInvocation="1581" maxMicrosecondsPerInvocation="22866" standardDeviationMircosecondsPerInvocation="3884"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1505905944987" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

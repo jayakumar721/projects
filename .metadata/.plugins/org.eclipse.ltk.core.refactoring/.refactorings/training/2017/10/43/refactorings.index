@@ -1,0 +1,26 @@
+1508733390510	Encapsulate field 'empCode'
+1508733440917	Encapsulate field 'empName'
+1508733687524	Encapsulate field 'increment'
+1508733997138	Encapsulate field 'salary'
+1508734218578	Encapsulate field 'salary'
+1508740282360	Rename type 'StaticDemo'
+1508740292323	Rename type 'Single'
+1508840731711	Delete element
+1508841089201	Copy compilation unit
+1508841205662	Rename type 'Employee2'
+1508845025570	Rename compilation unit 'Employee_Set.java'
+1508852505463	Infer generic type arguments
+1508916657412	Copy compilation unit
+1509002494563	Copy compilation units
+1509005477433	Copy compilation unit
+1509085627979	Copy compilation unit
+1509085633554	Copy compilation unit
+1509087628942	Copy file
+1509089064032	Delete element
+1509089370907	Delete elements
+1509089380118	Copy compilation unit
+1509090010274	Encapsulate field 'num'
+1509090476227	Rename type 'Thr'
+1509090621396	Delete element
+1509098823930	Delete element
+1509098831302	Copy file

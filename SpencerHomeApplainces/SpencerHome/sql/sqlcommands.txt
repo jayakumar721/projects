@@ -1,0 +1,14 @@
+Oracle DB creation Commands.
+
+1)For Product Table
+
+create table Product (product_id number(10) constraint pk_product_id primary key,product_name varchar2(255),quantity number(10),price number(10,2));
+
+
+2)For Customer Table
+
+create table Customer (Customer_id number(10) constraint pk_customer_id primary key,customerName varchar(255),contactNumber number(10),product_id number(10), foreign key (product_id) references  Product(product_id) );
+
+alter table Customer drop column product_id;
+
+3)

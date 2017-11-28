@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;in.vamsoft.day6.ThreadDemo&apos; to &apos;ThreadDemoLambda&apos;&#x0A;- Original project: &apos;training&apos;&#x0A;- Original element: &apos;in.vamsoft.day6.ThreadDemo&apos;&#x0A;- Renamed element: &apos;in.vamsoft.day6.ThreadDemoLambda&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ThreadDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;in.vamsoft.day6{ThreadDemo.java[ThreadDemo" matchStrategy="1" name="ThreadDemoLambda" qualified="false" references="true" similarDeclarations="false" stamp="1509531895777" textual="false" version="1.0"/>
+</session>

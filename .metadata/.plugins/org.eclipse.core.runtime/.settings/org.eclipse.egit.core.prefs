@@ -1,0 +1,5 @@
+GitRepositoriesView.GitDirectories=/home/vamsoft/jk/VamTraining/.git\:/home/vamsoft/git/Training/.git\:
+GitRepositoriesView.GitDirectories.relative=.git\:/home/vamsoft/git/Training/.git\:
+RepositorySearchDialogDeepSearch=true
+RepositorySearchDialogSearchPath=/home/vamsoft/jk/VamTraining
+eclipse.preferences.version=1

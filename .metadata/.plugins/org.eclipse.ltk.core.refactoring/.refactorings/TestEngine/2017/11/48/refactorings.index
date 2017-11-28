@@ -1,0 +1,13 @@
+1511759852382	Delete element
+1511764557486	Rename local variable 'choice'
+1511765735674	Rename resource 'request.jsp'
+1511769040357	Rename local variable 'token'
+1511772968856	Rename field 'userName'
+1511775015078	Rename resource 'header.html'
+1511787073892	Rename type 'Questions'
+1511789171065	Delete element
+1511840718472	Delete element
+1511856813871	Rename type 'QuestionsDAO'
+1511856843278	Extract interface 'QuestionsDAO'
+1511856880590	Extract interface 'UserDAO'
+1511868890988	Delete element
