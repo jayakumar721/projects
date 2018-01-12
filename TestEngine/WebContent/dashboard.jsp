@@ -81,6 +81,7 @@ color
 </style>
 </head>
 <body>
+<%if(session.getAttribute("name")!=null){ %>
 	<div>
 		<%@ include file="header.jsp"%>
 	</div>
@@ -92,23 +93,25 @@ color
 			<div class="col-sm-2"></div>
 		<div class="col-sm-6" style="font-family:timesnewroman;font-size:20px;font-style:italic;width: 100%; height: 300px; color: red; margin-top: 50px">
 			<ol type="1">
-				<li>ihh</li>
-				<li>dsff</li>
-				<li>hai</li>
-				<li>dsff</li>
-				<li>hai</li>
-				<li>dsff</li>
-				<li>hai</li>
-				<li>dsff</li>
-				<li>hai</li>
-				<li>dsff</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
 			</ol>
 			<div style="float:right;color:green;">
 				All the best,<a href="Questions" id="taketest">Take Test</a>
 			</div>
 		</div>
 	</div>
-
+<%} else {
+  response.sendRedirect("Login.html");
+}%>
 
 
 </body>

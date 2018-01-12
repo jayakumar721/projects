@@ -71,20 +71,7 @@ th, td {
 					  for (Employee l : list) {
 					%>
 
-					<script>
-						$(document).ready(function() {
-							$("#as").hover(function() {
-								$(this).animate({
-									height : '50px'
-								});
 
-							});
-							$("#as").mouseleave(function() {
-								$(this).css("background-color", "yellow");
-
-							});
-						});
-					</script>
 					<tr id="as">
 						<td><%=l.getEmpNo()%></td>
 						<td><%=l.getEmpName()%></td>
@@ -100,10 +87,9 @@ th, td {
 						</a></td>
 					</tr>
 
-
 					<%
 					  }
-					  } else {
+								} else {
 					%>
 					<h1>Data not found</h1>
 					<%
@@ -113,7 +99,20 @@ th, td {
 			</table>
 		</div>
 	</form>
+	<script>
+		$(document).ready(function() {
+			$("#as").hover(function() {
+				$(this).animate({
+					height : '50px'
+				});
 
+			});
+			$("#as").mouseleave(function() {
+				$(this).css("background-color", "yellow");
+
+			});
+		});
+	</script>
 
 </body>
 </html>

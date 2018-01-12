@@ -54,6 +54,7 @@ color
 }
 </style>
 
+
 </head>
 <body>
 	<div id="top-nav" class="navbar navbar-inverse navbar-static-top">
@@ -72,7 +73,7 @@ color
 
 					</li>
 					
-					<li><a href="Login.html"><i class="fa fa-sign-out"></i>
+					<li><a href="Logout.jsp"><i class="fa fa-sign-out"></i>
 							Logout</a></li>
 				</ul>
 			</div>

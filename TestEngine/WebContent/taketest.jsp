@@ -76,12 +76,11 @@
 	background-color: transparent;
 	width: 100px;
 	text-align: center;
-	background-color: transparent;
-	font-size: 20px;
 }
 </style>
 </head>
 <body onLoad="javascript:display();DisplaySessionTimeout();">
+<%if(session.getAttribute("name")!=null){ %>
 	<%@ include file="header.jsp"%>
 	<%
 	  List<Question> questions = (List<Question>) session.getAttribute("Questions");
@@ -103,7 +102,7 @@
 					<input type="radio" name="<%=element.getqNo()%>" value="<%=element.getOp4()%>"><%=element.getOp4()%><br>
 
 				</div>
-
+						
 				<%
 				  }
 				%>
@@ -111,6 +110,8 @@
 			<input type="submit" name="sub" value="submit">
 		</div>
 	</form>
-
+<%} else {
+  response.sendRedirect("Login.html");
+}%>
 </body>
 </html>

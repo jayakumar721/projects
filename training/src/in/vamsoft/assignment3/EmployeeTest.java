@@ -1,11 +1,7 @@
 package in.vamsoft.assignment3;
 
 public class EmployeeTest { 
-<<<<<<< HEAD
- 
-=======
-  
->>>>>>> 6b3f4d252156e2da132d0cad1d4670218144e3fa
+
   public static void printEmployee(Employee employee) {
     
     System.out.println("----------------------------");
@@ -26,12 +22,7 @@ public class EmployeeTest {
     printEmployee(manager);
     printEmployee(admin);
     printEmployee(director);
-<<<<<<< HEAD
-       
-=======
-   
-    
->>>>>>> 6b3f4d252156e2da132d0cad1d4670218144e3fa
+
     manager.setName("jk");
     printEmployee(manager);
     manager.raiseSalary(50000);

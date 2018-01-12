@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+body {
+	background: #92bde7;
+	color: #485e74;
+	line-height: 1.6;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 1em;
+}
+
+.box label input {
+	text-align: center;
+	position: relative;
+	top: 10px;
+}
+
+.box {
+	height: 200px;
+	background: #FFF;
+	margin: 40px auto;
+}
+
+.effect3 {
+	position: relative;
+}
+
+.effect3:before {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 50%;
+	top: 80%;
+	max-width: 300px;
+	background: #777;
+	-webkit-box-shadow: 0 15px 10px #777;
+	-moz-box-shadow: 0 15px 10px #777;
+	box-shadow: 0 15px 10px #777;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#submit').click(function(e){
+		$(".table-sortable tr td").remove();
+		e.preventDefault();
+	var task = $('.task').val();
+	var operation = "Add";
+	var data = { 'task': task , 'operation': operation};
+	$.ajax({
+		url: "Todo",
+		data:data,		
+		success: function(json){
+        console.log(json);
+        var json1 = $.parseJSON(json);
+        console.log(json1);
+        var taskLength= json1.length
+        console.log(taskLength);
+        var taskId='';
+        var Date='';
+        var TaskName='';
+        for (var i = 0; i < taskLength; i++) {
+        	 taskId= json1[i].TaskId;
+        	 console.log(taskId);
+        	 TaskName = json1[i].Task;
+        	 Date=json1[i].taskTime;
+        	 var tbdoy ="<tr ><td id='taskId'>"+taskId+"</td><td>"+TaskName+"</td><td>"+Date+"</td><td><button type='button' class='btn btn-danger changeStatus glyphicon glyphicon-remove row-remove'>Completed</button></td></tr>";
+        	 $('.tbody').append(tbdoy);
+			 			
+		}
+        $( '.changeStatus').click(function(){
+        	var TaskId = $(this).parent().parent().find('#taskId').html();
+        	TaskFinish(TaskId);
+    	});
+    }
+	});
+	});
+	
+	
+});
+	function TaskFinish(TaskId){
+		var TaskId =TaskId;
+		console.log(TaskId);
+		var del="delete";
+		var data = { 'TaskId': TaskId , 'operation': del};
+		$.ajax({
+			url: "Todo",
+			data:data,
+			success: function(json){
+				console.log(json);
+				  var json1 = $.parseJSON(json);
+			        console.log(json1);
+			        var taskLength= json1.length;
+			        if(taskLength!=0){
+			        	$(".table-sortable tr td").remove();
+			        	 for (var i = 0; i < taskLength; i++) {
+			            	 taskId= json1[i].TaskId;
+			            	 console.log(taskId);
+			            	 TaskName = json1[i].Task;
+			            	 Date=json1[i].taskTime;
+			            	 var tbdoy ="<tr ><td id='taskId'>"+taskId+"</td><td>"+TaskName+"</td><td>"+Date+"</td><td><button type='button' class='btn btn-danger changeStatus glyphicon glyphicon-remove row-remove'>Completed</button></td></tr>";
+			            	 $('.tbody').append(tbdoy);
+			    			 			
+			    		}
+			            $( '.changeStatus').click(function(){
+			            	var TaskId = $(this).parent().parent().find('#taskId').html();
+			            	TaskFinish(TaskId);
+			        	});
+			        }
+			}
+		});
+	}
+</script>
+</head>
+<body>
+	<form>
+		<div class="container">
+			<h1>Simple ToDo Application</h1>
+			<div class="col-md-12">
+				<div class="col-md-8 box effect3 ">
+					<div class="form-group">
+						<label for="task">Task Name</label> <input type="text"
+							class="form-control task" id="task" name="task">
+					</div>
+					<button type="submit" class="btn btn-primary" value="submit"
+						id="submit">Submit</button>
+				</div>
+			</div>
+
+
+
+			<div class="col-md-4 table-responsive">
+				<table class="table table-bordered table-hover table-sortable"
+					id="tab_logic">
+					<thead>
+						<tr>
+							<th class="text-center">TaskId</th>
+							<th class="text-center">TaskName</th>
+							<th class="text-center">TaskName</th>
+							<th class="text-center"
+								style="border-top: 1px solid #ffffff; border-right: 1px solid #ffffff;">
+							</th>
+						</tr>
+					</thead>
+					<tbody class="tbody">
+
+					</tbody>
+				</table>
+			</div>
+
+
+			<div class="col-md-4 table-responsive">
+				<table class="table table-bordered table-hover table-sortable"
+					id="tab_logic">
+					<thead>
+						<tr>
+							<th class="text-center">TaskId</th>
+							<th class="text-center">TaskName</th>
+							<th class="text-center">TaskName</th>
+							<th class="text-center"
+								style="border-top: 1px solid #ffffff; border-right: 1px solid #ffffff;">
+							</th>
+						</tr>
+					</thead>
+					<tbody class="tbody">
+
+					</tbody>
+				</table>
+			</div>
+
+
+
+		</div>
+		</div>
+	</form>
+</body>
+</html>

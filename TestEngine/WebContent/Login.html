@@ -9,6 +9,14 @@
 <link rel="icon" href="/home/vamsoft/jk/jkgit/output/favicon.ico">
 <title>login</title>
 
+
+<!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="favicon.ico">
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -40,8 +48,8 @@ var captcha_response = grecaptcha.getResponse();
 if(captcha_response.length == 0)
 {
     // Captcha is not Passed
+        alert("fill captcha");
     return false;
-    alert("fill captcha");
 }
 else
 {
@@ -140,7 +148,7 @@ else
 				</div>
 				<div class="panel-body">
 					<form id="signupform" class="form-horizontal" role="form"
-						action="UserValidateServlet" method = "post" onsubmit="return validateform()";>
+						action="UserValidateServlet" method = "post" onsubmit="return validateform()">
 
 						<div id="signupalert" style="display: none"
 							class="alert alert-danger">

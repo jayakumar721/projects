@@ -21,15 +21,11 @@ class ThreadRun1 extends Thread {
       try {
         @SuppressWarnings("resource")
         BufferedReader bufferedReader = new BufferedReader(fileReader);
-<<<<<<< HEAD
-        String line;
-        while ((line = bufferedReader.readLine()) != null) {
-=======
+
         StringBuffer stringBuffer = new StringBuffer();
         String line;
         while ((line = bufferedReader.readLine()) != null) {
           stringBuffer.append(line);
->>>>>>> 6b3f4d252156e2da132d0cad1d4670218144e3fa
           System.out.println(line.toString());
         }
 
@@ -61,15 +57,11 @@ class ThreadRun2 extends Thread {
       try {
         @SuppressWarnings("resource")
         BufferedReader bufferedReader = new BufferedReader(fileReader);
-<<<<<<< HEAD
-        String line;
-        while ((line = bufferedReader.readLine()) != null) {
-=======
+
         StringBuffer stringBuffer = new StringBuffer();
         String line;
         while ((line = bufferedReader.readLine()) != null) {
           stringBuffer.append(line);
->>>>>>> 6b3f4d252156e2da132d0cad1d4670218144e3fa
           System.out.println(line.toString());
         }
 

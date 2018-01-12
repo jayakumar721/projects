@@ -1,8 +1,17 @@
 package in.vamsoft.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="departments")
 public class Department {
-  
+  @Id
+  @Column(name="department_id")
   private int deptNo;
+  @Column(name="department_name")
   private String deptName;
   public int getDeptNo() {
     return deptNo;
@@ -26,7 +35,7 @@ public class Department {
   }
   @Override
   public String toString() {
-    return "Department [deptNo=" + deptNo + ", deptName=" + deptName + "]";
+    return "Department [deptNo=" + deptNo + ", deptName=" + deptName + "]\n";
   }
   
   

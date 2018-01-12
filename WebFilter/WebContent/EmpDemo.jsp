@@ -1,3 +1,4 @@
+<%@page import="in.vamsoft.dao.HibernateDaoImpl"%>
 <%@page import="in.vamsoft.services.ServiceDao"%>
 <%@page import="in.vamsoft.dao.EmpDao"%>
 <%@page import="in.vamsoft.model.Employee"%>
@@ -37,8 +38,8 @@ a:active {
 	<form action="EmployeeDetails" method="post" class="form-group">
 		<select name="deptId" class="form-control">
 			<%
-			  ServiceDao services = new EmpServices();
-			  List<Department> departments = services.getAllDepartments();
+				HibernateDaoImpl services = new HibernateDaoImpl();
+				List<Department> departments = services.getAllDept();
 			  for (Department d : departments) {
 			%>
 

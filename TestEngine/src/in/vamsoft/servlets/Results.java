@@ -29,19 +29,20 @@ public class Results extends HttpServlet {
     List<Question> questionList = (List<Question>) session.getAttribute("Questions");
     int marks = 0;
     boolean result;
-    for (Question question : questionList) {
-      String ans = request.getParameter(String.valueOf(question.getqNo()));
-      String ques = question.getQuestion();
-      if (ans != null) {
-        result = dao.getAnswers(ques, ans);
-        if (result) {
-          marks++;
+    if (questionList.size() > 0) {
+      for (Question question : questionList) {
+        String ans = request.getParameter(String.valueOf(question.getqNo()));
+        String ques = question.getQuestion();
+        if (ans != null) {
+          result = dao.getAnswers(ques, ans);
+          if (result) {
+            marks++;
+          }
         }
       }
+      session.setAttribute("marks", marks);
+      RequestDispatcher dispatcher = request.getRequestDispatcher("result.jsp");
+      dispatcher.forward(request, response);
     }
-    session.setAttribute("marks", marks);
-    RequestDispatcher dispatcher = request.getRequestDispatcher("result.jsp");
-    dispatcher.forward(request, response);
   }
-
 }

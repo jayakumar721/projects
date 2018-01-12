@@ -139,3 +139,341 @@ Nov 28, 2017 19:18:08.38 [Parent 13740, Gecko_IOThread] WARNING: pipe error (225
 Nov 28, 2017 19:20:49.85 ExceptionHandler::GenerateDump cloned child 20150
 Nov 28, 2017 19:20:49.95 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
 Nov 28, 2017 19:20:49.95 ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+
+Dec 19, 2017 14:37:00.08 NEW SESSION
+Dec 19, 2017 14:37:00.08 IPDL protocol error: Handler returned error code!
+Dec 19, 2017 14:37:00.09 
+Dec 19, 2017 14:37:00.09 ###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundStorage::Msg_AsyncAddItem Processing error: message was deserialized, but the handler returned false (indicating failure)
+Dec 19, 2017 14:37:00.09 
+Dec 19, 2017 14:55:20.16 [Parent 11642, Gecko_IOThread] WARNING: pipe error (132): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Dec 19, 2017 14:55:20.42 [Parent 11642, Gecko_IOThread] WARNING: pipe error (85): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Dec 19, 2017 15:24:38.68 [Parent 11642, Gecko_IOThread] WARNING: pipe error (128): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Dec 19, 2017 15:46:50.24 [Parent 11642, Gecko_IOThread] WARNING: pipe error (128): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Dec 19, 2017 15:46:50.25 [Parent 11642, Gecko_IOThread] WARNING: pipe error (105): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Dec 19, 2017 15:46:50.31 [Parent 11642, Gecko_IOThread] WARNING: pipe error (125): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+Dec 26, 2017 15:13:43.76 NEW SESSION
+Dec 26, 2017 15:13:43.80 Created new window in existing browser session.
+
+Dec 27, 2017 18:24:26.81 NEW SESSION
+Dec 27, 2017 18:24:26.81 Created new window in existing browser session.
+Dec 27, 2017 18:27:39.57 Created new window in existing browser session.
+
+Dec 28, 2017 17:47:41.70 NEW SESSION
+Dec 28, 2017 17:47:41.70 Created new window in existing browser session.
+Dec 28, 2017 17:51:26.99 Created new window in existing browser session.
+
+Dec 28, 2017 18:29:31.70 NEW SESSION
+Dec 28, 2017 18:29:31.70 [2867:2946:1228/182931:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Dec 28, 2017 18:29:31.80 [2867:2946:1228/182931:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+
+Jan 04, 2018 10:15:20.48 NEW SESSION
+Jan 04, 2018 10:15:20.48 Created new window in existing browser session.
+Jan 04, 2018 10:21:27.07 Created new window in existing browser session.
+Jan 04, 2018 10:24:36.25 Created new window in existing browser session.
+Jan 04, 2018 10:25:19.85 Created new window in existing browser session.
+Jan 04, 2018 10:30:05.53 Created new window in existing browser session.
+Jan 04, 2018 12:27:15.27 [10148:10148:0104/122715:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 04, 2018 12:27:15.32 [10148:10148:0104/122715:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 04, 2018 12:27:17.18 [10148:10178:0104/122717:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 04, 2018 12:27:17.98 [10148:10223:0104/122717:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 04, 2018 12:27:26.27 [1:1:0104/122726:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 12:28:13.03 [1:1:0104/122813:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 12:28:34.78 Created new window in existing browser session.
+
+Jan 04, 2018 12:47:41.58 NEW SESSION
+Jan 04, 2018 12:47:41.58 [11117:11117:0104/124741:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 04, 2018 12:47:41.58 [11117:11117:0104/124741:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 04, 2018 12:47:41.76 [11117:11148:0104/124741:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 04, 2018 12:47:42.16 [11117:11148:0104/124742:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 04, 2018 12:49:05.85 Created new window in existing browser session.
+Jan 04, 2018 12:49:23.30 [11536:11536:0104/124923:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 04, 2018 12:49:23.30 [11536:11536:0104/124923:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 04, 2018 12:49:23.35 [11536:11605:0104/124923:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 04, 2018 12:49:23.36 [11536:11605:0104/124923:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 04, 2018 12:57:35.10 Created new window in existing browser session.
+Jan 04, 2018 13:19:00.41 [13221:13221:0104/131900:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 04, 2018 13:19:00.41 [13221:13221:0104/131900:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 04, 2018 13:19:00.46 [13221:13253:0104/131900:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 04, 2018 13:19:00.46 [13221:13253:0104/131900:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 04, 2018 13:19:37.14 [1:1:0104/131937:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:20:25.90 [1:1:0104/132025:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:20:38.71 [1:1:0104/132038:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:20:42.21 [1:1:0104/132042:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:22:01.34 [1:1:0104/132201:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:22:03.47 [1:1:0104/132203:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:23:49.64 [1:1:0104/132349:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:26:36.92 [1:1:0104/132636:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:26:39.25 [1:1:0104/132639:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:27:01.16 [1:1:0104/132701:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:28:09.79 [1:1:0104/132809:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:28:14.53 [1:1:0104/132814:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:39:03.61 [1:1:0104/133903:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:39:03.62 [1:1:0104/133903:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:39:07.32 [13221:14147:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 13:39:07.32 [13221:14125:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 13:39:07.32 [13221:14124:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for googleads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 13:39:07.33 [13221:14127:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 13:39:07.33 [13221:14123:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for 2542116.fls.doubleclick.net failed err=-8172
+Jan 04, 2018 13:39:07.33 [13221:14126:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for 2542116.fls.doubleclick.net failed err=-8172
+Jan 04, 2018 13:39:07.33 [13221:14147:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for 2542116.fls.doubleclick.net failed err=-8172
+Jan 04, 2018 13:39:07.33 [13221:14125:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for 2542116.fls.doubleclick.net failed err=-8172
+Jan 04, 2018 13:39:07.34 [13221:14124:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 13:39:07.34 [13221:14127:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for googleads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 13:39:07.34 [13221:14123:0104/133907:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for googleads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 13:39:09.96 [1:1:0104/133909:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:39:22.25 [13221:13261:0104/133922:ERROR:ssl_client_socket_impl.cc(1168)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan 04, 2018 13:39:22.25 [13221:13261:0104/133922:ERROR:ssl_client_socket_impl.cc(1168)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan 04, 2018 13:39:22.25 [13221:13261:0104/133922:ERROR:ssl_client_socket_impl.cc(1168)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan 04, 2018 13:40:59.83 [1:1:0104/134059:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 13:41:06.21 [13221:14147:0104/134106:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for googleads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 13:41:21.07 [13221:13261:0104/134121:ERROR:ssl_client_socket_impl.cc(1168)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan 04, 2018 13:41:21.07 [13221:13261:0104/134121:ERROR:ssl_client_socket_impl.cc(1168)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan 04, 2018 14:29:54.10 [1:1:0104/142954:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 14:29:54.10 [1:1:0104/142954:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 14:31:08.58 [1:1:0104/143108:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 14:31:08.58 [1:1:0104/143108:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:01:57.94 [13221:15948:0104/150157:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 15:01:57.97 [13221:15947:0104/150157:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 15:01:57.99 [13221:15563:0104/150157:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 15:01:57.99 [13221:15974:0104/150157:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 15:01:57.99 [13221:15973:0104/150157:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 15:01:58.02 [13221:15975:0104/150158:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for secure.quantserve.com failed err=-8172
+Jan 04, 2018 15:01:58.02 [13221:15948:0104/150158:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for js-sec.indexww.com failed err=-8172
+Jan 04, 2018 15:01:58.03 [13221:15563:0104/150158:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for secure.quantserve.com failed err=-8172
+Jan 04, 2018 15:01:58.03 [13221:15974:0104/150158:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for js-sec.indexww.com failed err=-8172
+Jan 04, 2018 15:01:58.04 [13221:15973:0104/150158:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for js-sec.indexww.com failed err=-8172
+Jan 04, 2018 15:01:58.04 [13221:15975:0104/150158:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for secure.quantserve.com failed err=-8172
+Jan 04, 2018 15:01:58.04 [13221:15948:0104/150158:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for js-sec.indexww.com failed err=-8172
+Jan 04, 2018 15:01:58.06 [13221:15563:0104/150158:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for sb.scorecardresearch.com failed err=-8172
+Jan 04, 2018 15:01:58.06 [13221:15974:0104/150158:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for sb.scorecardresearch.com failed err=-8172
+Jan 04, 2018 15:01:58.09 [13221:15973:0104/150158:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for sb.scorecardresearch.com failed err=-8172
+Jan 04, 2018 15:02:00.62 [13221:15947:0104/150200:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 15:02:04.26 [13221:15947:0104/150204:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 15:03:14.89 [1:1:0104/150314:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:05:24.40 [1:1:0104/150524:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:05:24.40 [1:1:0104/150524:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:08:13.77 Created new window in existing browser session.
+Jan 04, 2018 15:09:48.76 [13221:16463:0104/150948:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 15:09:48.76 [13221:15563:0104/150948:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 15:09:48.76 [13221:15947:0104/150948:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 15:09:53.54 [13221:15563:0104/150953:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pubads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 15:14:04.23 Created new window in existing browser session.
+Jan 04, 2018 15:14:56.55 [13221:16849:0104/151456:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 15:14:56.59 [13221:16463:0104/151456:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for secure.quantserve.com failed err=-8172
+Jan 04, 2018 15:15:06.89 [WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+Jan 04, 2018 15:15:23.16 [13221:13261:0104/151523:ERROR:ssl_client_socket_impl.cc(1168)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan 04, 2018 15:31:39.75 [13221:16851:0104/153139:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for sb.scorecardresearch.com failed err=-8172
+Jan 04, 2018 15:32:17.24 [13221:17754:0104/153217:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 15:32:17.27 [13221:15974:0104/153217:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 15:32:17.29 [13221:17660:0104/153217:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for sb.scorecardresearch.com failed err=-8172
+Jan 04, 2018 15:32:17.29 [13221:16851:0104/153217:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for sb.scorecardresearch.com failed err=-8172
+Jan 04, 2018 15:32:17.29 [13221:17734:0104/153217:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for js-sec.indexww.com failed err=-8172
+Jan 04, 2018 15:32:17.30 [13221:17658:0104/153217:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 15:32:17.53 [13221:17754:0104/153217:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for js-sec.indexww.com failed err=-8172
+Jan 04, 2018 15:32:17.73 [13221:15974:0104/153217:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for js-sec.indexww.com failed err=-8172
+Jan 04, 2018 15:32:17.80 [13221:17660:0104/153217:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 15:32:17.81 [13221:16851:0104/153217:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for secure.quantserve.com failed err=-8172
+Jan 04, 2018 15:32:27.21 A Parser-blocking, cross-origin script, http://www.googletagservices.com/tag/js/gpt.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity.
+Jan 04, 2018 15:32:27.21 A Parser-blocking, cross-origin script, http://www.googletagservices.com/tag/js/gpt.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity.
+Jan 04, 2018 15:32:30.83 [13221:17658:0104/153230:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for imageserver.quinstreet.com failed err=-8172
+Jan 04, 2018 15:32:31.66 [13221:15974:0104/153231:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for imageserver.quinstreet.com failed err=-8172
+Jan 04, 2018 15:33:52.18 Created new window in existing browser session.
+Jan 04, 2018 15:34:12.71 [1:1:0104/153412:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:34:12.77 [1:1:0104/153412:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:34:58.61 [1:1:0104/153458:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:34:59.58 [1:1:0104/153459:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:35:01.07 [1:1:0104/153501:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:35:05.57 [1:1:0104/153505:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:39:12.11 [13221:15974:0104/153912:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pagead2.googlesyndication.com failed err=-8172
+Jan 04, 2018 15:39:13.46 [13221:18126:0104/153913:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for route.carambo.la failed err=-8172
+Jan 04, 2018 15:43:38.45 [13221:18127:0104/154338:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 15:43:41.04 A Parser-blocking, cross-origin script, http://www.google-analytics.com/ga.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity.
+Jan 04, 2018 15:43:41.04 A Parser-blocking, cross-origin script, http://www.google-analytics.com/ga.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity.
+Jan 04, 2018 15:43:48.30 [13221:15974:0104/154348:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for loadus.exelator.com failed err=-8172
+Jan 04, 2018 15:43:48.31 [13221:18126:0104/154348:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for loadus.exelator.com failed err=-8172
+Jan 04, 2018 15:43:48.31 [13221:18194:0104/154348:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for loadus.exelator.com failed err=-8172
+Jan 04, 2018 15:43:49.54 [13221:18127:0104/154349:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 15:45:03.10 [13221:18193:0104/154503:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pagead2.googlesyndication.com failed err=-8172
+Jan 04, 2018 15:45:03.96 [13221:18194:0104/154503:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 15:47:11.29 [13221:17734:0104/154711:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 15:47:14.41 [13221:18126:0104/154714:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 15:47:14.51 [13221:18193:0104/154714:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for secure.quantserve.com failed err=-8172
+Jan 04, 2018 15:54:19.63 [1:54:0104/155419:ERROR:ffmpeg_demuxer.cc(1595)] OnReadFrameDone result=-541478725 IsMaxMemoryUsageReached=0
+Jan 04, 2018 15:54:26.06 [13221:18193:0104/155426:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for js-sec.indexww.com failed err=-8172
+Jan 04, 2018 15:54:26.08 [13221:18126:0104/155426:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for sb.scorecardresearch.com failed err=-8172
+Jan 04, 2018 15:54:26.08 [13221:15974:0104/155426:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for secure.quantserve.com failed err=-8172
+Jan 04, 2018 15:54:28.65 [13221:18193:0104/155428:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 15:54:51.53 [13221:15974:0104/155451:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for secure.quantserve.com failed err=-8172
+Jan 04, 2018 15:58:11.93 [1:1:0104/155811:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:58:13.09 [1:1:0104/155813:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:58:26.23 [1:1:0104/155826:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:58:28.00 [1:1:0104/155827:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:58:37.70 [1:1:0104/155837:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:58:39.09 [1:1:0104/155839:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 15:59:22.29 [13221:18711:0104/155922:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for c1.microsoft.com failed err=-8172
+Jan 04, 2018 15:59:22.29 [13221:18127:0104/155922:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for c1.microsoft.com failed err=-8172
+Jan 04, 2018 15:59:22.80 [13221:15974:0104/155922:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for c1.microsoft.com failed err=-8172
+Jan 04, 2018 15:59:22.81 [13221:18712:0104/155922:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for c1.microsoft.com failed err=-8172
+Jan 04, 2018 16:10:06.92 Created new window in existing browser session.
+Jan 04, 2018 16:10:54.78 [1:1:0104/161054:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 16:10:57.19 [1:1:0104/161057:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 16:19:42.66 [13221:15974:0104/161942:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 16:19:42.66 [13221:18711:0104/161942:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 16:19:42.66 [13221:18193:0104/161942:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 16:19:42.66 [13221:18712:0104/161942:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 16:19:42.70 [13221:15974:0104/161942:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pagead2.googlesyndication.com failed err=-8172
+Jan 04, 2018 16:19:42.70 [13221:18711:0104/161942:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pagead2.googlesyndication.com failed err=-8172
+Jan 04, 2018 16:19:42.70 [13221:18193:0104/161942:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 16:19:42.70 [13221:18712:0104/161942:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pagead2.googlesyndication.com failed err=-8172
+Jan 04, 2018 16:21:19.70 [13221:15974:0104/162119:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 16:21:23.12 [13221:18711:0104/162123:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 16:21:23.20 [13221:18711:0104/162123:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pagead2.googlesyndication.com failed err=-8172
+Jan 04, 2018 16:21:28.72 [13221:15974:0104/162128:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 17:00:48.23 Created new window in existing browser session.
+Jan 04, 2018 17:03:33.63 [1:1:0104/170333:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:03:37.43 [1:1:0104/170337:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:05:06.24 [1:49:0104/170506:ERROR:ffmpeg_demuxer.cc(1595)] OnReadFrameDone result=-541478725 IsMaxMemoryUsageReached=0
+Jan 04, 2018 17:05:23.73 [1:1:0104/170523:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:05:31.30 [1:1:0104/170531:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:05:44.63 [1:1:0104/170544:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:08:03.13 [1:1:0104/170803:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:08:05.74 [1:1:0104/170805:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:08:06.25 [1:49:0104/170806:ERROR:ffmpeg_demuxer.cc(1595)] OnReadFrameDone result=-541478725 IsMaxMemoryUsageReached=0
+Jan 04, 2018 17:11:30.62 [1:1:0104/171130:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:38:02.67 [13221:20580:0104/173802:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 17:38:02.70 [13221:20391:0104/173802:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 17:38:02.70 [13221:20578:0104/173802:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 17:38:02.70 [13221:20580:0104/173802:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 17:38:02.70 [13221:20391:0104/173802:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pubads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 17:38:02.70 [13221:20578:0104/173802:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pubads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 17:38:02.70 [13221:20580:0104/173802:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pubads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 17:38:02.70 [13221:20356:0104/173802:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 17:38:02.70 [13221:21528:0104/173802:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 04, 2018 17:42:12.76 Created new window in existing browser session.
+Jan 04, 2018 17:43:03.00 [1:49:0104/174302:ERROR:ffmpeg_demuxer.cc(1595)] OnReadFrameDone result=-541478725 IsMaxMemoryUsageReached=0
+Jan 04, 2018 17:43:16.02 [1:1:0104/174316:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:43:18.47 [1:1:0104/174318:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:43:54.79 [1:1:0104/174354:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:43:57.45 [1:1:0104/174357:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:44:07.73 [1:1:0104/174407:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:44:11.61 [1:1:0104/174411:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:52:20.29 [1:1:0104/175220:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:52:45.19 [1:1:0104/175245:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:52:51.24 [1:1:0104/175251:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:53:24.24 [1:1:0104/175324:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:53:38.41 [1:1:0104/175338:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:54:36.82 [1:1:0104/175436:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:54:52.21 [1:1:0104/175452:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:55:15.83 [13221:21887:0104/175515:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for googleads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 17:55:40.79 [1:1:0104/175540:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:55:48.45 [1:1:0104/175548:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:56:06.66 [1:1:0104/175606:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 17:56:09.60 [13221:20356:0104/175609:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googleadservices.com failed err=-8172
+Jan 04, 2018 17:56:41.51 [13221:20580:0104/175641:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for 2542116.fls.doubleclick.net failed err=-8172
+Jan 04, 2018 17:56:41.51 [13221:21887:0104/175641:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for 2542116.fls.doubleclick.net failed err=-8172
+Jan 04, 2018 17:56:41.56 [13221:20356:0104/175641:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for ssl.google-analytics.com failed err=-8172
+Jan 04, 2018 17:56:41.56 [13221:21529:0104/175641:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for googleads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 17:56:41.74 [13221:20356:0104/175641:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for googleads.g.doubleclick.net failed err=-8172
+Jan 04, 2018 17:56:56.51 [13221:13261:0104/175656:ERROR:ssl_client_socket_impl.cc(1168)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan 04, 2018 17:56:56.51 [13221:13261:0104/175656:ERROR:ssl_client_socket_impl.cc(1168)] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan 04, 2018 18:19:33.16 [1:1:0104/181933:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:20:22.99 [1:1:0104/182022:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:20:40.55 [1:1:0104/182040:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:20:40.55 [1:1:0104/182040:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:20:43.52 [13221:22279:0104/182043:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 04, 2018 18:20:47.26 [1:1:0104/182047:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:21:05.76 [1:1:0104/182105:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:21:22.58 [1:1:0104/182122:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:23:08.22 [1:1:0104/182308:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:23:34.84 [1:1:0104/182334:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:23:41.97 [1:1:0104/182341:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:24:09.14 [1:1:0104/182409:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:24:10.96 [1:1:0104/182410:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:24:21.62 [1:1:0104/182421:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:25:08.33 [1:1:0104/182508:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:25:31.33 [1:1:0104/182531:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:25:55.07 [1:1:0104/182555:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:25:59.70 [1:1:0104/182559:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:25:59.70 [1:1:0104/182559:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:26:19.19 [1:1:0104/182619:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:26:21.60 [1:1:0104/182621:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:26:25.18 [1:1:0104/182625:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:26:40.57 [1:1:0104/182640:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:27:11.90 [1:1:0104/182711:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:27:45.25 [1:1:0104/182745:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:29:29.84 [1:1:0104/182929:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:29:33.53 [1:1:0104/182933:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:29:38.80 [1:1:0104/182938:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:29:42.84 [1:1:0104/182942:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:31:27.44 [1:1:0104/183127:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 04, 2018 18:31:27.44 [1:1:0104/183127:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+
+Jan 05, 2018 09:30:06.74 NEW SESSION
+Jan 05, 2018 09:30:06.74 Created new window in existing browser session.
+Jan 05, 2018 09:39:29.52 Created new window in existing browser session.
+Jan 05, 2018 10:03:44.77 Created new window in existing browser session.
+Jan 08, 2018 12:29:08.74 Created new window in existing browser session.
+Jan 08, 2018 12:47:55.33 Created new window in existing browser session.
+Jan 08, 2018 12:47:55.81 [11064:11064:0108/124755:ERROR:broker_posix.cc(41)] Invalid node channel message
+Jan 08, 2018 13:31:28.80 Created new window in existing browser session.
+Jan 08, 2018 13:39:48.92 Created new window in existing browser session.
+Jan 08, 2018 13:41:49.04 Created new window in existing browser session.
+
+Jan 08, 2018 15:16:31.88 NEW SESSION
+Jan 08, 2018 15:16:31.88 [14621:14621:0108/151631:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 08, 2018 15:16:31.94 [14621:14621:0108/151631:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 08, 2018 15:16:32.56 [14621:14657:0108/151632:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 08, 2018 15:16:32.74 [14621:14656:0108/151632:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 08, 2018 15:16:44.28 [1:1:0108/151644:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 15:17:11.71 [1:1:0108/151711:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 15:17:14.00 [1:1:0108/151714:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 15:17:25.04 [1:1:0108/151725:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 15:19:00.96 [1:1:0108/151900:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 15:19:03.16 [1:1:0108/151903:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 15:19:53.07 [1:1:0108/151953:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 15:19:55.74 [1:1:0108/151955:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 15:27:47.79 [15411:15411:0108/152747:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 08, 2018 15:27:47.79 [15411:15411:0108/152747:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: ,https://www.w3schools.com:443
+Jan 08, 2018 15:27:47.88 [15411:15482:0108/152747:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 08, 2018 15:27:47.88 [15411:15482:0108/152747:ERROR:gcm_store_impl.cc(306)] Failed to open database /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: Invalid argument: /home/vamsoft/.config/google-chrome/Profile 1/GCM Store: does not exist (create_if_missing is false)
+Jan 08, 2018 15:27:53.59 [1:1:0108/152753:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 16:03:19.26 [15411:15494:0108/160319:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 08, 2018 16:03:19.34 [15411:15495:0108/160319:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pagead2.googlesyndication.com failed err=-8172
+Jan 08, 2018 16:04:56.94 [15411:16637:0108/160456:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 08, 2018 16:04:57.01 [15411:16636:0108/160457:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for pagead2.googlesyndication.com failed err=-8172
+Jan 08, 2018 16:05:18.05 [15411:16635:0108/160518:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 08, 2018 16:05:18.09 [15411:15495:0108/160518:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 08, 2018 16:28:53.57 [15411:17294:0108/162853:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 08, 2018 16:28:53.61 [15411:16635:0108/162853:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 08, 2018 16:28:53.61 [15411:15495:0108/162853:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 08, 2018 16:28:53.98 [15411:16638:0108/162853:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 08, 2018 16:38:53.64 [15411:16638:0108/163853:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for js-sec.indexww.com failed err=-8172
+Jan 08, 2018 16:38:57.13 [15411:16636:0108/163857:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 08, 2018 16:38:57.20 [15411:16638:0108/163857:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+Jan 08, 2018 16:38:57.22 [15411:16635:0108/163857:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for sb.scorecardresearch.com failed err=-8172
+Jan 08, 2018 16:38:57.27 [15411:15495:0108/163857:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for secure.quantserve.com failed err=-8172
+Jan 08, 2018 16:59:09.45 [1:1:0108/165909:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 16:59:10.67 [1:1:0108/165910:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 16:59:41.06 [1:1:0108/165941:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 16:59:41.06 [1:1:0108/165941:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+Jan 08, 2018 17:02:23.87 [15411:17294:0108/170223:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+Jan 08, 2018 17:02:33.65 A Parser-blocking, cross-origin script, http://www.googletagservices.com/tag/js/gpt.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity.
+Jan 08, 2018 17:02:33.65 A Parser-blocking, cross-origin script, http://www.googletagservices.com/tag/js/gpt.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity.
+Jan 08, 2018 17:02:36.88 [15411:18329:0108/170236:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for imageserver.quinstreet.com failed err=-8172
+Jan 08, 2018 17:02:36.96 [15411:16637:0108/170236:ERROR:cert_verify_proc_nss.cc(942)] CERT_PKIXVerifyCert for imageserver.quinstreet.com failed err=-8172
+Jan 08, 2018 18:06:35.06 Created new window in existing browser session.
+Jan 08, 2018 18:27:04.08 [1:1:0108/182704:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+
+Jan 11, 2018 10:29:18.84 NEW SESSION
+Jan 11, 2018 10:29:18.84 Created new window in existing browser session.
+
+Jan 12, 2018 09:41:41.45 NEW SESSION
+Jan 12, 2018 09:41:41.45 Created new window in existing browser session.
+Jan 12, 2018 09:51:20.33 Created new window in existing browser session.
+Jan 12, 2018 10:19:26.39 Created new window in existing browser session.
+Jan 12, 2018 10:44:46.85 Created new window in existing browser session.
+Jan 12, 2018 11:00:22.62 Created new window in existing browser session.
+Jan 12, 2018 12:47:37.12 Created new window in existing browser session.
+Jan 12, 2018 12:56:59.09 Created new window in existing browser session.
+Jan 12, 2018 13:14:05.89 Created new window in existing browser session.

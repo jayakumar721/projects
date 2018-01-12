@@ -2,14 +2,26 @@ package in.vamsoft.model;
 
 import java.time.LocalDate;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="empcopy")
 public class Employee {
 
-  
+  @Id
+  @Column(name="empid")
   private int empNo;
+  @Column(name="fname")
   private String empName;
+  @Column(name="salary")
   private double salary;
+  @Column(name="doj")
   private LocalDate date ;
-  private int deptId;
+  @Column(name="deptid")
+  private Integer deptId;
   public int getEmpNo() {
     return empNo;
   }
@@ -54,7 +66,7 @@ public class Employee {
   @Override
   public String toString() {
     return "Employee [empNo=" + empNo + ", empName=" + empName + ", salary=" + salary + ", date=" + date +", deptId="
-        + deptId + "]";
+        + deptId + "]\n";
   }
   
 }

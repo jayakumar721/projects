@@ -26,12 +26,12 @@ public class Manager extends Employee {
 
   @SuppressWarnings("static-access")
   public boolean addEmployee(int empId, String name, int ssn, double salary) {
-    
-    if(findEmployee(empId)==true) {
+
+    if (findEmployee(empId) == true) {
       return false;
-    }else {
-      this.staff[employeeCounter] = new Employee(empId,name,ssn,salary);
-      this.employeeCounter +=1; 
+    } else {
+      this.staff[employeeCounter] = new Employee(empId, name, ssn, salary);
+      this.employeeCounter += 1;
       return true;
     }
 
@@ -43,11 +43,7 @@ public class Manager extends Employee {
 
   @SuppressWarnings("unused")
   public boolean findEmployee(int em) {
-<<<<<<< HEAD
-    for (int i = 0; i <= employeeCounter; i++) {
-=======
     for (int i = 0; i <= 20; i++) {
->>>>>>> 6b3f4d252156e2da132d0cad1d4670218144e3fa
       if (em == this.staff[i].getEmpId()) {
         System.out.println("Employee exist!!");
         return true;
@@ -64,11 +60,8 @@ public class Manager extends Employee {
   public void removeEmployee(Employee emp) {
     
     Employee[] dup=new Employee[20];
-<<<<<<< HEAD
-    for(int i=0,j=0;i<employeeCounter;i++,j++) {
-=======
+
     for(int i=0,j=0;i<20;i++,j++) {
->>>>>>> 6b3f4d252156e2da132d0cad1d4670218144e3fa
       if(emp==staff[j]) {
         j+=1;
       }else {
@@ -85,11 +78,8 @@ public class Manager extends Employee {
   public void printManagerDetails() throws NullPointerException {
     System.out.println("++++++++++++++++++++++++");
     System.out.println("Manager : " + man);
-<<<<<<< HEAD
-    for (int i = 0; i <= employeeCounter; i++) {
-=======
+
     for (int i = 0; i <= 20; i++) {
->>>>>>> 6b3f4d252156e2da132d0cad1d4670218144e3fa
       this.staff[i].empDetails();
       System.out.println();
       System.out.println();
